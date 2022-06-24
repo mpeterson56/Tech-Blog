@@ -9,5 +9,24 @@
     "jest": "^28.1.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
+  },
+  "name": "tech-blog",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpeterson56/Tech-Blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpeterson56/Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/mpeterson56/Tech-Blog#readme"
 }

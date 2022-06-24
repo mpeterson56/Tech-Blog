@@ -4,24 +4,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Just Tech News</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  <title>Tech Blog</title>
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/css/uikit.min.css" />
+   <link rel="stylesheet" href="/stylesheet/style.css">
 </head>
 
 <body>
   <div class="wrapper">
     <header>
-      <h1>
-        <a href="/">Just Tech News</a>
-      </h1>
-      <nav>
+      
+      <nav class="uk-align-left uk-position-left" >
+        <a href="/" class="">home</a>
+        
         {{#if loggedIn}}
-        <a href="/dashboard">dashboard</a>
+        <a href="/dashboard" >dashboard</a>
+        
         <button id="logout" class="btn-no-style">logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login" >login</a>
         {{/if}}
       </nav>
+      <h1>
+        <a href="/" class="">Tech Blog</a>
+      </h1>
     </header>
     <main>
       {{{ body }}}
@@ -33,7 +39,9 @@
   
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
+
   {{/if}}
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit-icons.min.js"></script>
 </html>
