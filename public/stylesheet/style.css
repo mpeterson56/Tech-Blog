@@ -7,13 +7,13 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    color: #333;
+    color: #000000;
     background-color: #22a34d;
   }
   
   a {
     text-decoration: none;
-    color: #030304;
+    color: #e3e3f1;
     font-weight: bold;
     transition: color .1s;
   }
@@ -77,7 +77,7 @@
   }
   
   header {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(0, 0, 0);
     display: flex;
     justify-content: space-evenly;
     
@@ -101,7 +101,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #000000;
+    color: #d8d8d8;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
@@ -129,7 +129,7 @@
   .post .title span {
     font-style: italic;
     font-size: 90%;
-    color: black;
+    color: rgb(241, 145, 145);
   }
   
   .edit-link {
@@ -156,7 +156,7 @@
   }
   
   .comment:nth-child(odd) {
-    background-color: #fff5eb;
+    background-color: #afac18;
   }
   
   .comment .meta {

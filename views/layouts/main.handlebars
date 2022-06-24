@@ -14,19 +14,19 @@
   <div class="wrapper">
     <header>
       
-      <nav class="uk-align-left uk-position-left" >
-        <a href="/" class="">home</a>
+      <nav class="uk-nav" >
+        <a href="/" class=""><span uk-icon="home">home</span></a>
         
         {{#if loggedIn}}
-        <a href="/dashboard" >dashboard</a>
+        <a href="/dashboard" ><span uk-icon="grid">dashboard</span></a>
         
-        <button id="logout" class="btn-no-style">logout</button>
+        <button id="logout" class="btn-no-style"> <span uk-icon="sign-out">logout</span></button>
         {{else}}
-        <a href="/login" >login</a>
+        <a href="/login" > <span uk-icon="sign-in">login</span> </a>
         {{/if}}
       </nav>
       <h1>
-        <a href="/" class="">Tech Blog</a>
+        <a href="/" class="uk-heading-line"><span uk-icon="world">Tech Blog</span></a>
       </h1>
     </header>
     <main>
