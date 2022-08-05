@@ -1,4 +1,5 @@
 # Tech-Blog
+![TechBlog](https://user-images.githubusercontent.com/100823810/182999261-95a06932-1a96-4c64-91c0-9b82082de654.jpg)
 
 
 ## Description
